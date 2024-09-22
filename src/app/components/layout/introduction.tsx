@@ -6,7 +6,7 @@ export default function Introduction(){
     return (
         <div className="flex items-center flex-col size-full" >
 
-            <div className='mt-52'>
+            <div className='mt-40'>
                 <div className='m-6 flex items-center flex-col '>
                     <Image 
                         className='rounded-md'
