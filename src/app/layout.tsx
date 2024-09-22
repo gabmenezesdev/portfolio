@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased 
           size-full m-0 p-0 animate-[gradientAnimation_5s_ease_infinite]
-          bg-svg`}
+          bg-repeat heropattern-circuitboard-inherit`}
           // bg-gradient
       >
         {children}
