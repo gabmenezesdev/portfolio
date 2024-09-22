@@ -14,9 +14,24 @@
   }
 }
 
+.bg-svg {
+  background-image: url('/static/background-texture.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents tiling */
+  position: absolute; /* Position it absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  z-index: 1; /* Layer it above the background */
+}
+
+
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
+  background-image: url('/static/background-texture.svg');
   font-family: Arial, Helvetica, sans-serif;
 }
 

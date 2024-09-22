@@ -29,7 +29,10 @@ export default function RootLayout({
         <link rel="icon" href="/static/favicon.png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased size-full m-0 p-0 bg-gradient`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased 
+          size-full m-0 p-0 animate-[gradientAnimation_5s_ease_infinite]
+          bg-svg`}
+          // bg-gradient
       >
         {children}
       </body>

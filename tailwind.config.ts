@@ -18,17 +18,23 @@ const config: Config = {
         title: "#FFFFFF",
       },
       backgroundImage: {
-        gradient: "linear-gradient(to bottom, #040c25, #000000)", // Define gradient
+        gradient: "linear-gradient(to bottom, #040c25, #000000)",
       },
       keyframes: {
         blink: {
           '0%': { opacity: '0' },
           '50%': { opacity: '1' },
           '100%': { opacity: '0' }
-        }
+        },
+        gradientAnimation: {
+          '0%': { 'background-color': '#040c25' },
+          '50%': { 'background-color': '#1a1d3c' },
+          '100%': { 'background-color': '#040c25' }
+        },
       },
       animation: {
-        blink: 'blink 1s step-end infinite;'
+        blink: 'blink 1s step-end infinite;',
+        gradientAnimation: 'gradientAnimation 5s ease infinite;'
       }
     },
   },

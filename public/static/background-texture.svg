@@ -1,0 +1,9 @@
+<div className="absolute inset-0 z-0">
+  <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMinYMin meet">
+    <pattern id="svgPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect x="0" y="0" width="5" height="5" fill="#040c25" />
+      <rect x="5" y="5" width="5" height="5" fill="#1a1d3c" />
+    </pattern>
+    <rect width="100" height="100" fill="url(#svgPattern)" />
+  </svg>
+</div>
