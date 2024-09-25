@@ -24,15 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" className='p-0 m-0 size-full'>
+    <html lang="pt-br" className='p-0 m-0 size-full bg-gradient'>
       <head>
         <link rel="icon" href="/static/favicon.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased 
-          size-full m-0 p-0 animate-[gradientAnimation_5s_ease_infinite]
-          bg-repeat heropattern-circuitboard-inherit`}
-          // bg-gradient
+          size-full m-0 p-0 bg-repeat heropattern-circuitboard-inherit`}
       >
         {children}
       </body>
