@@ -4,9 +4,9 @@ import TypeWriter from '../common/type-writer'
 export default function Introduction(){
 
     return (
-        <div className="flex items-center flex-col size-full" >
+        <div className="size-full" >
 
-            <div className='mt-40'>
+            <div className='flex items-center flex-col w-full h-5/6 justify-center'>
                 <div className='m-6 flex items-center flex-col '>
                     <Image 
                         className='rounded-md'
