@@ -15,7 +15,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='size-full flex flex-col bg-gradient'>
+        <div className='w-100 h-screen flex flex-col bg-gradient'>
           <h1 className='w-full text-center text-5xl'>Experiences</h1>
           <div className='size-full flex flex-row'>
             <Experience />
