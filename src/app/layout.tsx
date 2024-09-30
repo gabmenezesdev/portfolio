@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" className='p-0 m-0 size-full'>
+    <html lang="pt-br" className='p-0 m-0 size-full scroll-smooth'>
       <head>
         <link rel="icon" href="/static/favicon.png" />
       </head>

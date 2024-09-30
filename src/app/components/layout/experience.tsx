@@ -5,6 +5,7 @@ export function Experience(){
     return (
         <div className="w-1/2 flex items-center h-screen flex-col overflow-y-scroll">
             <h1 className="text-3xl m-6">Working experience</h1>
+
             <Timeline >
 
                 <TimelineCard date={"Aug 2022"} 

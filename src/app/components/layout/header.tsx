@@ -17,10 +17,10 @@ export default function Header(){
             <div className='flex items-center w-6/12'>
                 <ul className='list-none flex items-center justify-center p-o ml-20'>
                     <li>
-                        <a href="#" className='me-4 hover:underline md:me-6 ml-10' >Experience</a>
+                        <a href="#experiences" className='me-4 hover:underline md:me-6 ml-10' >Experience</a>
                     </li>
                     <li>
-                        <a href="#" className='me-4 hover:underline md:me-6 ml-10' >About me</a>
+                        <a href="#about-me" className='me-4 hover:underline md:me-6 ml-10' >About me</a>
                     </li>
                     <li>
                         <a href="#" className='me-4 hover:underline md:me-6 ml-10' >Contact</a>

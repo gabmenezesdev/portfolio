@@ -1,3 +1,4 @@
+import AboutMe from './components/common/aboutme';
 import { Experience } from './components/layout/experience';
 import Header from './components/layout/header';
 import Introduction from './components/layout/introduction';
@@ -15,11 +16,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='w-100 h-screen flex flex-col bg-gradient'>
-          <h1 className='w-full text-center text-5xl'>Experiences</h1>
+        <div className='w-100 h-screen flex flex-col bg-gradient' id='experiences'>
           <div className='size-full flex flex-row'>
             <Experience />
             <SideProjects />
+          </div>
+        </div>
+
+        <div className='w-100 h-screen flex flex-col bg-gradient' id='about-me'>
+          <div className='size-full flex flex-row'>
+            <AboutMe />
           </div>
         </div>
         
