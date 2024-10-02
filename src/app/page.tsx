@@ -1,4 +1,5 @@
 import AboutMe from './components/common/aboutme';
+import Footer from './components/common/footer';
 import { Experience } from './components/layout/experience';
 import Header from './components/layout/header';
 import Introduction from './components/layout/introduction';
@@ -6,7 +7,7 @@ import SideProjects from './components/layout/side-projects';
 
 export default function Home() {
   return (
-    <div className="size-full">
+    <div >
       <main className="size-full">
 
         <div className='bg-gradient w-full h-screen'>
@@ -31,8 +32,8 @@ export default function Home() {
 
         
       </main>
-      <footer className="size-full">
-        footer
+      <footer className="w-100">
+        <Footer />
       </footer>
     </div>
   );
