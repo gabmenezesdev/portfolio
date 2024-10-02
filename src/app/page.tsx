@@ -28,12 +28,12 @@ export default function Home() {
             <AboutMe />
           </div>
         </div>
-        
+
         
       </main>
-      {/* <footer className="size-full">
+      <footer className="size-full">
         footer
-      </footer> */}
+      </footer>
     </div>
   );
 }
